@@ -16,8 +16,8 @@ def load_and_tokenize(file_path, tokenizer):
     return inputs
 
 # File paths
-file1_path = 'F:\Macquarie\Research project\\role_files\Influenza_texts_mistral_fear.txt'
-file2_path = 'F:\Macquarie\Research project\\role_files\Influenza_texts_mistral_religious.txt'
+file1_path = 'Path to text file'
+file2_path = 'Path to text file'
 
 # Load and tokenize the files
 inputs1 = load_and_tokenize(file1_path, tokenizer)
